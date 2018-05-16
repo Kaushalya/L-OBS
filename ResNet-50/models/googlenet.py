@@ -1,4 +1,4 @@
-from kaffe import Network
+from kaffe.tensorflow import Network
 
 class GoogleNet(Network):
     def setup(self):

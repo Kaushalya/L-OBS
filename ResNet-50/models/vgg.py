@@ -1,4 +1,4 @@
-from kaffe import Network
+from kaffe.tensorflow import Network
 
 class VGG16(Network):
     def setup(self):
